@@ -7,7 +7,7 @@
 
 	<groupId>com.xdev-software</groupId>
 	<artifactId>vaadin-chip-combobox-root</artifactId>
-	<version>2.2.4-SNAPSHOT</version>
+	<version>gamma4_2304dev_bubblet</version>
 	<packaging>pom</packaging>
 	
 	<inceptionYear>2021</inceptionYear>

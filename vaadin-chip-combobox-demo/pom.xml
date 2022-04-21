@@ -6,7 +6,7 @@
 	<groupId>com.xdev-software</groupId>
 	<artifactId>vaadin-chip-combobox-demo</artifactId>
 	
-	<version>2.2.4-SNAPSHOT</version>
+	<version>gamma4_2304dev_bubblet</version>
 	<packaging>war</packaging>
 
 	<name>Chip-ComboBox Demo</name>
@@ -29,9 +29,7 @@
 	
 	<license.licenseName>apache_v2</license.licenseName>
 
-		<javaVersion>1.8</javaVersion>
-		<maven.compiler.source>${javaVersion}</maven.compiler.source>
-		<maven.compiler.target>${javaVersion}</maven.compiler.target>
+		
 		<!-- Used for Java 11 -->
 		<!--<maven.compiler.release>${javaVersion}</maven.compiler.release> -->
 
@@ -40,7 +38,9 @@
 		<failOnMissingWebXml>false</failOnMissingWebXml>
 
 		<!-- Dependency-Versions -->
-		<vaadin.version>14.8.6</vaadin.version>
+		<vaadin.version>23.0.4</vaadin.version>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 	</properties>
 
 		<dependencyManagement>
